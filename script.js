@@ -41,13 +41,13 @@ form.addEventListener('submit', function(event) {
         // degreeCell.textContent = degree;
 
         const editIcon = document.createElement("img");
-        editIcon.src = "/images/edit.png";
+        editIcon.src = "/edit.png";
         editIcon.className = "edit-icon";
         editIcon.dataset.id = idCounter;
         editIcon.alt = "Edit";
 
         const deleteIcon = document.createElement("img");
-        deleteIcon.src = "/images/delete.png";
+        deleteIcon.src = "/delete.png";
         deleteIcon.className = "delete-icon";
         deleteIcon.dataset.id = idCounter;
         deleteIcon.alt = "Delete";
